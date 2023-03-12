@@ -1,0 +1,70 @@
+.App {
+  background: #0e1014;
+  font-family: "Inter";
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  color: #e4e5ea;
+}
+
+.Layout {
+  margin-left: 150px;
+  margin-right: 150px;
+  z-index: 1;
+  position: relative;
+}
+
+.red-light {
+  position: absolute;
+  z-index: 0;
+}
+
+.purple-light {
+  position: absolute;
+  z-index: 0;
+  left: 20vw;
+  top: 0;
+}
+
+.red-ball {
+  position: absolute;
+  z-index: 0;
+  top: 83px;
+  left: 38vw;
+}
+
+.purple-ball {
+  position: absolute;
+  z-index: 0;
+  top: -2px;
+  left: 60vw;
+}
+
+.red-ball-small {
+  position: absolute;
+  z-index: 0;
+  top: 550px;
+  left: 55vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    padding-top: 0px;
+  }
+
+  .red-ball-small,
+.purple-ball,
+.red-ball,
+.purple-light,
+.red-light {
+    display: none;
+  }
+
+  .Layout {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

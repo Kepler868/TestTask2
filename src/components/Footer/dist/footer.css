@@ -1,0 +1,141 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.footer--left {
+  display: flex;
+}
+.footer--left ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer--left ul li {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer--left .about {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+.footer--left .about--head {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #656566;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer--left .menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer--left .menu--head {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #656566;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer--left .menu--list {
+  margin-right: 50px;
+}
+.footer--left .menu div {
+  display: flex;
+}
+.footer--right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  text-align: right;
+}
+.footer--right .contact-head {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #656566;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer--right .icons img {
+  width: 16px;
+  margin-left: 14px;
+}
+.footer--right ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+.footer--right ul li {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.copyright a {
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 15px;
+    width: 360px;
+  }
+  .footer--left {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .footer--left .about--head {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+  }
+  .footer--left .menu--head {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+  }
+  .footer--left .menu--list {
+    margin-right: 45px;
+  }
+  .footer--left li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .footer--right {
+    text-align: left;
+  }
+  .footer--right .contact-head {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+  }
+  .footer--right .icons img {
+    width: 20px;
+    margin-left: 0;
+    margin-right: 14px;
+  }
+  .footer ul {
+    margin-bottom: 50px;
+  }
+  .footer ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+  }
+}
