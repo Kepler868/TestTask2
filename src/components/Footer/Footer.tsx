@@ -1,8 +1,8 @@
-import React from "react";
 import "./footer.scss";
 import Contacts from '../Contacts/Contacts';
+import { FC } from 'react';
 
-const Footer = () => {
+const Footer:FC = ():JSX.Element => {
   return (
     <div className="footer">
       <div className="footer--left">

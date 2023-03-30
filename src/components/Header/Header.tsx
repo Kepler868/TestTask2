@@ -1,10 +1,10 @@
-import React from "react";
+import { FC } from "react";
 import "./header.scss";
 import logo from "../assets/logo.png";
 import welbex from "../assets/welbex.png";
 import Contacts from '../Contacts/Contacts';
 
-const Header = () => {
+const Header: FC = (): JSX.Element => {
   return (
     <div className="header">
       <div className="welbex">
@@ -13,7 +13,6 @@ const Header = () => {
             style={{
               width: "35px",
               height: "24px",
-              
             }}
             src={logo}
             alt="logo"
@@ -28,20 +27,22 @@ const Header = () => {
             alt="welbex"
           />
         </div>
-        <a>крупный интегратор CRM <br/>в Росcии и ещё 8 странах</a>
+        <a>
+          крупный интегратор CRM <br />в Росcии и ещё 8 странах
+        </a>
       </div>
       <div className="navbar">
         <div>Услуги</div>
         <div>Виджеты</div>
         <div>Интеграции</div>
         <div>Кейсы</div>
-        <div className='certificates'>Сертификаты</div>
+        <div className="certificates">Сертификаты</div>
       </div>
 
       <div className="contacts">
         <div className="phone">+7 555 555-55-55</div>
         <div className="messengers">
-          <Contacts/>
+          <Contacts />
         </div>
       </div>
     </div>

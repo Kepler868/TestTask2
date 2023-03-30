@@ -1,12 +1,12 @@
-import React from "react";
+import { FC } from "react";
 import "./main.scss";
 import line from "../assets/line.png";
 import MobileBackground from '../Background/MobileBackground';
 
-const Main = () => {
+const Main: FC = (): JSX.Element => {
   return (
     <div className="mainpage">
-      <MobileBackground/>
+      <MobileBackground />
       <div className="left-block">
         <div className="left-block--upper">Зарабатывайте больше</div>
         <div className="left-block--medium">с WELBEX</div>

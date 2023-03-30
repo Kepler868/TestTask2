@@ -4,11 +4,13 @@
   justify-content: space-between;
   padding-top: 100px;
 
-  .backdrop{
+  .backdrop {
     display: none;
   }
-  .backdrop, .noise, .mobile-light {
-      display: none;
+  .backdrop,
+  .noise,
+  .mobile-light {
+    display: none;
   }
 }
 
@@ -30,6 +32,7 @@
     text-align: left;
     background: linear-gradient(45deg, #fcb045 24%, #ff3f78 100%, #e4e5ea);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -58,6 +61,7 @@
     text-align: right;
     background: linear-gradient(45deg, #fcb045 50%, #fd1d1d 100%, #e4e5ea);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
@@ -125,19 +129,20 @@
     padding-bottom: 60px;
     width: 360px;
     div {
-        position: relative;
-    z-index: 1;
+      position: relative;
+      z-index: 1;
     }
-    .backdrop, .noise, .mobile-light {
-        min-width: 360px;
-        display: block;
-        position: absolute;
-        z-index: 0;
+    .backdrop,
+    .noise,
+    .mobile-light {
+      min-width: 360px;
+      display: block;
+      position: absolute;
+      z-index: 0;
     }
 
-  
     .noise {
-        opacity: 15%;
+      opacity: 15%;
     }
   }
 
@@ -174,7 +179,7 @@
       .benefits-mobile {
         display: flex;
         img {
-            margin-right: 5px;
+          margin-right: 5px;
         }
         div {
           font-size: 13px;
