@@ -6,7 +6,7 @@ import whatsapp from "../assets/whatsapp.png";
 const Contacts = () => {
     return (
       <>
-        <img src={telegram} alt="telegram" />
+        <img style={{cursor: "pointer"}} src={telegram} alt="telegram" />
         <img src={phone} alt="phone" />
         <img src={whatsapp} alt="whatsapp" />
       </>

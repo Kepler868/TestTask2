@@ -13,6 +13,7 @@
 .navbar div {
   margin-left: 15px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .welbex {
@@ -31,14 +32,17 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .contacts {
   display: flex;
+  cursor: pointer;
 }
 
 .phone {
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .messengers img {
@@ -46,6 +50,7 @@
   margin-right: 15px;
   height: 16px;
   width: 16px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) {

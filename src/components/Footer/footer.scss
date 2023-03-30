@@ -25,6 +25,7 @@
       padding-left: 0;
       li {
         @include li_text_400() {
+          cursor: pointer;
           margin-bottom: 10px;
         }
       }
@@ -68,12 +69,14 @@
       color: #656566;
       font-weight: 700;
       margin-bottom: 20px;
+    
     }
 
     .icons {
       img {
-          width: 16px;
+        width: 16px;
         margin-left: 14px;
+        cursor: pointer;
       }
     }
     ul {
@@ -83,6 +86,7 @@
       li {
         @include li_text_400() {
           margin-bottom: 20px;
+          cursor: pointer;
         }
       }
     }
@@ -146,11 +150,11 @@
         letter-spacing: 0.05em;
       }
       .icons {
-          img {
-            width: 20px;  
-            margin-left: 0;
-            margin-right: 14px;
-          }
+        img {
+          width: 20px;
+          margin-left: 0;
+          margin-right: 14px;
+        }
       }
     }
     ul {

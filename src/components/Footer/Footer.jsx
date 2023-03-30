@@ -44,7 +44,7 @@ const Footer = () => {
         </ul>
         <div className='copyright'>
           <a>©WELBEX 2022. Все права защищены.</a>
-          <a style={{"textDecoration":'underline'}}>Политика конфиденциальности</a>
+          <a style={{"textDecoration":'underline', cursor: "pointer"}}>Политика конфиденциальности</a>
         </div>
       </div>
     </div>
